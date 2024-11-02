@@ -19,7 +19,7 @@
       .focus-mode div.main {
         position: fixed !important;
         inset: 0 !important;
-        z-index: 99999 !important;
+        z-index: 1000 !important;
         overflow-y: auto !important;
         height: 100vh !important;
         width: 100vw !important;
