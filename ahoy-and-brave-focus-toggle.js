@@ -27,7 +27,7 @@
       }`;
     document.head.appendChild(styleSheet);
 
-    // Make it possible to focus go to the page with the focus already applied
+    // Make it possible to go to the page with the focus already applied
     const isFocusSearchParamOn =
         new URL(window.location.href).searchParams.get('focus') === FOCUS_ON;
     // Persist the focus mode in the local storage, so that it's remembered when changing pages
